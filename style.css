@@ -77,8 +77,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: -30% -500px, 120% 400px;
+    background-repeat: no-repeat;
 }
 
+/*
 .top-bg {
     position: absolute;
     background: url("images/bg-pattern-top.svg");
@@ -90,7 +94,8 @@ body {
     left: -160px;
     z-index: -1;
   }
-  
+ 
+ 
 .bottom-bg {
     position: absolute;
     background: url("images/bg-pattern-bottom.svg");
@@ -102,12 +107,14 @@ body {
     right: -250px;
     z-index: -1;
 }
+*/
 
 .card {
     background-color: white;
     max-width: 375px;
     overflow: hidden;
     border-radius: 0.825rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .user_photo {
@@ -190,7 +197,9 @@ hr {
     text-align: center;
 }
 
+/*
 @media(max-width: 375px){
+    
     .top-bg{
         height: 375px;
         width: 375px;
@@ -204,3 +213,4 @@ hr {
         right: -167px;
     }
 }
+*/
